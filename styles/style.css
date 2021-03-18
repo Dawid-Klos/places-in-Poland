@@ -1,0 +1,134 @@
+body {
+
+}
+
+.main {
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+/* TOP SECTION */
+.navbar {
+    max-width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 26px 100px;
+}
+
+/* logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo__img {
+
+}
+.logo__text {
+    margin-left: 16px;
+}
+
+/* nav */
+.links {
+
+}
+.links__list {
+
+}
+.link {
+
+}
+
+/* H1 - PAGE TITLE */
+.website-title {
+
+}
+.website-title__heading {
+
+}
+
+
+/* ARTICLE with place descripton */
+.place-descripton {
+
+}
+.place-descripton__heading {
+
+}
+.place-descripton__content {
+
+}
+.explore-btn {
+
+}
+
+
+/* SLIDER */
+
+.heading {
+
+}
+
+.slide-1 {
+
+}
+.slide-2 {
+
+}
+.slide-3 {
+
+}
+.slide-4 {
+
+}
+.slide-5 {
+
+}
+
+
+/* SLIDER-CONTROL-PANEL */
+
+/* buttons */
+.slider-control {
+
+}
+.arrows {
+
+}
+.arrow-back {
+
+}
+.arrow-forward {
+
+}
+
+/* position of slider */
+.slider-position-line {
+
+}
+.pos-line {
+
+}
+.pos-1 {
+
+}
+.pos-2 {
+    
+}
+.pos-3 {
+    
+}
+.pos-4 {
+    
+}
+.pos-5 {
+    
+}
+
+
+

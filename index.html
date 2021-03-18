@@ -15,20 +15,90 @@
     <meta property="og:description" content="" />
     <!-- full url with http(s) ie. https://maciejkorsan.github.io/my-repo/ -->
     <meta property="og:url" content="https://dawid-klos.github.io" />
-   <meta
+    <meta
       property="og:image"
       content="https://dawid-klos.github.io/cover.png"
     />
-    <link rel="stylesheet" href="style.css" />
+    <!-- loading styles -->
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- loading fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- loading js file -->
+    <script src="js/app.js"></script>
   </head>
   <body>
+    <section class="navbar">
+      <section class="logo">
+        <img class="logo__img" src="/img/pl-logo.svg" alt="Logo of Poland" />
+        <p class="logo__text">PL</p>
+      </section>
+      <nav class="links">
+        <ul class="links__list">
+          <li><a href="#" class="link">Home</a></li>
+          <li><a href="#" class="link">Discover</a></li>
+          <li><a href="#" class="link">About</a></li>
+        </ul>
+      </nav>
+    </section>
 
-    <h1>Hello world!</h1>
-    
+    <article class="website-title">
+      <h1 class="website-title__heading">Most beautiful places in Poland</h1>
+    </article>
 
+    <main class="main">
+      <article class="place-descripton">
+        <h2 class="place-descripton__heading"></h2>
+        <p class="place-descripton__content"></p>
+        <button class="explore-btn">
+          <p>Explore</p>
+          <img
+            src="img/arrow-right.svg"
+            alt="Icon of arrow directed to right"
+          />
+        </button>
+      </article>
 
+      <section class="slider">
+        <div class="slide-1">
+          <h3 class="heading"></h3>
+        </div>
+        <div class="slide-2">
+          <h3 class="heading"></h3>
+        </div>
+        <div class="slide-3">
+          <h3 class="heading"></h3>
+        </div>
+        <div class="slide-4">
+          <h3 class="heading"></h3>
+        </div>
+        <div class="slide-5">
+          <h3 class="heading"></h3>
+        </div>
+      </section>
 
-
-
+      <section class="slider-control">
+        <div class="arrows">
+          <div class="arrow-back">
+            <img src="img/arrow-back.svg" alt="Icon of back arrow" />
+          </div>
+          <div class="arrow-forward">
+            <img src="img/arrow-forward.svg" alt="Icon of forward arrow" />
+          </div>
+        </div>
+        <div class="slider-position-line">
+          <div class="pos-line"></div>
+          <div class="pos-1"></div>
+          <div class="pos-2"></div>
+          <div class="pos-3"></div>
+          <div class="pos-4"></div>
+          <div class="pos-5"></div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

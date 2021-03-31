@@ -7,7 +7,7 @@
     <title>Places in Poland</title>
     <meta
       name="description"
-      content="This website shows most beautiful places to visit in Poland. "
+      content="This website shows most beautiful places to visit in Poland."
     />
     <!-- Title -->
     <meta property="og:title" content="Places in Poland" />
@@ -37,81 +37,41 @@
     />
   </head>
   <body class="body">
-    <section class="navbar">
-      <section class="logo">
+    <div class="navbar">
+      <div class="logo">
         <img class="logo__img" src="img/pl-logo.svg" alt="Logo of Poland" />
         <p class="logo__text">PL</p>
-      </section>
+      </div>
       <nav class="links">
-        <ul class="links__list">
-          <li><a href="#" class="link">Home</a></li>
-          <li><a href="#" class="link">Discover</a></li>
-          <li><a href="#" class="link">About</a></li>
-        </ul>
+          <a href="#" class="link">Home</a>
+          <a href="#" class="link">Discover</a>
+          <a href="#" class="link">About</a>
       </nav>
-    </section>
+    </div>
 
     <article class="website-title">
       <h1 class="website-title__heading">Most beautiful places in Poland</h1>
     </article>
 
     <main class="main">
-      <section class="places">
-        <article class="place-01">
-          <h2 class="place-01__heading">
-            <p class="place-01__heading--number">01.</p>
-            Baltic Sea
-          </h2>
-          <p class="place-01__content">
-            The Baltic Sea is an arm of the Atlantic Ocean, enclosed by Denmark,
-            Estonia, Finland, Latvia, Lithuania, Sweden, northeast Germany,
-            Poland, Russia and the North and Central European Plain.
-          </p>
-          <a href="#" class="place-01__explore-btn">
-            <p>Explore</p>
-            <img
-              src="img/arrow-right.svg"
-              alt="Icon of arrow directed to right"
-            />
-          </a>
-        </article>
-
-        <article class="place-02">
-          <h2 class="place-02__heading"></h2>
-          <p class="place-02__content"></p>
-          <button class="place-02__explore-btn">
-            <p>Explore</p>
-            <img
-              src="img/arrow-right.svg"
-              alt="Icon of arrow directed to right"
-            />
-          </button>
-        </article>
-
-        <article class="place-03">
-          <h2 class="place-03__heading"></h2>
-          <p class="place-03__content"></p>
-          <a href="#" class="place-03__explore-btn">
-            <p>Explore</p>
-            <img
-              src="img/arrow-right.svg"
-              alt="Icon of arrow directed to right"
-            />
-          </a>
-        </article>
-
-        <article class="place-04">
-          <h2 class="place-04__heading"></h2>
-          <p class="place-04__content"></p>
-          <button class="place-04__explore-btn">
-            <p>Explore</p>
-            <img
-              src="img/arrow-right.svg"
-              alt="Icon of arrow directed to right"
-            />
-          </button>
-        </article>
-      </section>
+      <article class="place">
+        <div class="place__heading-container">
+          <p class="place__number">01.</p>
+          <h2 class="place__heading">Baltic Sea</h2>
+        </div>
+        <p class="place__content">
+          The Baltic Sea is an arm of the Atlantic Ocean, enclosed by Denmark,
+          Estonia, Finland, Latvia, Lithuania, Sweden, northeast Germany,
+          Poland, Russia and the North and Central European Plain.
+        </p>
+        <a href="#" class="place__explore-btn">
+          <p>Explore</p>
+          <img
+            src="img/arrow-right.svg"
+            alt="Icon of arrow directed to right"
+          />
+        </a>
+      </article>
 
       <section class="slider-box">
         <div class="slider">
@@ -121,7 +81,7 @@
               src="img/sailing-icon.svg"
               alt="Sailing icon"
             />
-            <h3 class="slide-01__heading"> Baltic Sea</h3>
+            <h3 class="slide-01__heading">Baltic Sea</h3>
           </div>
           <div class="slide-02">
             <img
@@ -157,10 +117,10 @@
         </div>
         <div class="pos-line"></div>
         <div class="pos-points">
-          <div class="pos-1"><p class="pos__text">01</p></div>
-          <div class="pos-2"><p class="pos__text">02</p></div>
-          <div class="pos-3"><p class="pos__text">03</p></div>
-          <div class="pos-4"><p class="pos__text">04</p></div>
+          <div class="pos-1"><p class="pos-1__text">01</p></div>
+          <div class="pos-2"><p class="pos-2__text">02</p></div>
+          <div class="pos-3"><p class="pos-3__text">03</p></div>
+          <div class="pos-4"><p class="pos-4__text">04</p></div>
         </div>
       </section>
     </main>

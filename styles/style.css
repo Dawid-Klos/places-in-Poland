@@ -11,7 +11,6 @@
     color: #E9ECEF;
     margin: 0px 100px;
     overflow: hidden;
-    /*position: relative; */
 }
 
 /* TOP SECTION */
@@ -85,8 +84,8 @@
 
 /* H1 - PAGE TITLE */
 .website-title {
-    margin-top: 24px;
-    margin-bottom: 60px;
+    margin-top: -24px;
+    margin-bottom: 30px;
 }
 .website-title__heading {
     font-family: 'Lobster', 'sans-serif';
@@ -108,7 +107,7 @@
 /* Article with place descripton */
 
 .place {
-    width: 600px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -120,7 +119,7 @@
     align-items: center;
 }
 .place__heading {
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bold;
     letter-spacing: 4px;
     margin: 0;
@@ -128,18 +127,18 @@
 .place__number {
     background-color: #023E8A;
     border-radius: 16px;
-    width: 128px;
+    width: 108px;
     min-height: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bold;
 }
 .place__content {
     position: absolute;
-    top: 180px;
+    top: 140px;
     letter-spacing: .7px;
     text-align: justify;
     line-height: 28px;
@@ -172,7 +171,7 @@
 
 .slider {
     position: absolute;
-    width: 1200px;
+    width: 960px;
     height: 460px;
     display: flex;
     flex-flow: row nowrap;
@@ -183,8 +182,8 @@
 /* Slide-1 */
 .slide-01 {
     /* 300, 460 */
-    width: 280px;
-    height: 460px;
+    width: 224px;
+    height: 368px;
     background-image: url("../img/gallery/small/slide-01.png");
     border: 2px solid #023E8A;
     border-radius: 8px;
@@ -196,7 +195,7 @@
 .slide-01__icon {
 }
 .slide-01__heading:before {
-    width: 280px;
+    width: 224px;
     height: 60px;
     position: absolute;
     display: block;
@@ -217,8 +216,8 @@
 /* Slide-2 */
 /* 280, 400 */
 .slide-02 {
-    width: 280px;
-    height: 380px;
+    width: 224px;
+    height: 304px;
     background-image: url("../img/gallery/small/slide-02.png");
     border-radius: 8px;
     display: flex;
@@ -229,7 +228,7 @@
 .slide-02__icon {
 }
 .slide-02__heading:before {
-    width: 280px;
+    width: 224px;
     height: 60px;
     position: absolute;
     display: block;
@@ -249,8 +248,8 @@
 
 /* Slide-3 */
 .slide-03 {
-    width: 280px;
-    height: 380px;
+    width: 224px;
+    height: 304px;
     background-image: url("../img/gallery/small/slide-03.png");
     border-radius: 8px;
     display: flex;
@@ -262,7 +261,7 @@
 
 }
 .slide-03__heading:before {
-    width: 280px;
+    width: 224px;
     height: 60px;
     position: absolute;
     display: block;
@@ -282,8 +281,8 @@
 
 /* Slide-4 */
 .slide-04 {
-    width: 280px;
-    height: 380px;
+    width: 224px;
+    height: 304px;
     background-image: url("../img/gallery/small/slide-03.png");
     border-radius: 8px;
     display: flex;
@@ -294,7 +293,7 @@
 .slide-04__icon {
 }
 .slide-04__heading:before {
-    width: 280px;
+    width: 224px;
     height: 60px;
     position: absolute;
     display: block;
@@ -320,7 +319,7 @@
     grid-column-start: 1;
     grid-column-end: 4;
     position: fixed;
-    bottom: 100px;
+    bottom: 50px;
     left: 50%;
     transform: translate(-50%, 0);
     width: 875px;
@@ -477,8 +476,15 @@
         margin-top: 12px;
         margin-bottom: 40px;
     }
-    .place-01 {
+    .place {
         width: 600px;
+    }
+    .place__number {
+        width: 128px;
+    }
+    .place__content {
+        top: 160px;
+        font-size: 14px;
     }
     .slider-box {
         grid-column-start: 3;
@@ -488,5 +494,41 @@
         grid-row: 3;
         margin: 0px auto;
         margin-bottom: -30px;
+    }
+    .slider {
+        position: absolute;
+        width: 1200px;
+        height: 460px;
+    }
+    .slide-01 {
+        width: 280px;
+        height: 460px;
+    }
+    .slide-02 {
+        width: 280px;
+        height: 380px;
+    }
+    .slide-03 {
+        width: 280px;
+        height: 380px;
+    }
+    .slide-04 {
+        width: 280px;
+        height: 380px;
+    }
+    .slide-01__heading:before {
+        width: 280px;
+    }
+    .slide-02__heading:before {
+        width: 280px;
+    }
+    .slide-03__heading:before {
+        width: 280px;
+    }
+    .slide-04__heading:before {
+        width: 280px;
+    }
+    .slider-control {
+        bottom: 100px;
     }
 }

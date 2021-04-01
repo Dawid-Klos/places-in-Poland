@@ -22,7 +22,6 @@
     <!-- loading styles -->
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/places.css" />
 
     <!-- loading fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -40,11 +39,20 @@
     <div class="navbar">
       <div class="logo">
         <img class="logo__img" src="img/pl-logo.svg" alt="Logo of Poland" />
-        <p class="logo__text">PL</p>
+        <p class="logo__text">POLAND</p>
       </div>
       <nav class="links">
           <a href="#" class="link">Home</a>
-          <a href="#" class="link">Discover</a>
+          <!-- DROPDOWN LIST FROM w3 - https://www.w3schools.com/css/css_dropdowns.asp -->
+          <div class="dropdown">
+          <a href="#" class="link link--dropdown">Discover</a>
+            <div class="dropdown-content">
+            <a href="pages/baltic-sea.html" class="dropdown__link">Baltic Sea</a>
+            <a href="#" class="dropdown__link">Mountains</a>
+            <a href="#" class="dropdown__link">Masuria</a>
+            <a href="#" class="dropdown__link">Kashubia</a>
+          </div>
+          </div>
           <a href="#" class="link">About</a>
       </nav>
     </div>
@@ -64,7 +72,7 @@
           Estonia, Finland, Latvia, Lithuania, Sweden, northeast Germany,
           Poland, Russia and the North and Central European Plain.
         </p>
-        <a href="#" class="place__explore-btn">
+        <a href="pages/baltic-sea.html" class="place__explore-btn">
           <p>Explore</p>
           <img
             src="img/arrow-right.svg"
@@ -106,7 +114,7 @@
         </div>
       </section>
 
-      <section class="slider-control">
+      <div class="slider-control">
         <div class="arrows">
           <button class="arrow-back">
             <img src="img/arrow-back.svg" alt="Icon of back arrow" />
@@ -122,7 +130,7 @@
           <div class="pos-3"><p class="pos-3__text">03</p></div>
           <div class="pos-4"><p class="pos-4__text">04</p></div>
         </div>
-      </section>
+      </div>
     </main>
     <script src="js/app.js"></script>
   </body>

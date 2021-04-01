@@ -1,6 +1,8 @@
 console.log("Hello world");
 
 // SLIDER //
+
+// Control //
 const nextSlide = document.querySelector(".arrow-forward");
 const previousSlide = document.querySelector(".arrow-back");
 const body = document.querySelector(".body");
@@ -23,6 +25,7 @@ const placeHeadingNumber = document.querySelector(".place__number");
 const placeContent = document.querySelector(".place__content");
 
 // SLIDES //
+
 // container 
 const slide1 = document.querySelector(".slide-01");
 const slide2 = document.querySelector(".slide-02");

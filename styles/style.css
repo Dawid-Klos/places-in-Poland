@@ -11,6 +11,7 @@
     color: #E9ECEF;
     margin: 0px 100px;
     overflow: hidden;
+    /*position: relative; */
 }
 
 /* TOP SECTION */
@@ -85,7 +86,7 @@
 /* H1 - PAGE TITLE */
 .website-title {
     margin-top: 24px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 .website-title__heading {
     font-family: 'Lobster', 'sans-serif';
@@ -101,7 +102,7 @@
     display: grid;
     grid-template-columns: 1fr 120px 1fr;
     grid-template-rows: 75% 25%;
-    /* overflow: hidden; */
+
 }
 
 /* Article with place descripton */
@@ -472,8 +473,9 @@
     .website-title__heading {
         font-size: 62px;
     }
-    main {
-        grid-template-columns: 1fr 1fr;
+    .website-title {
+        margin-top: 12px;
+        margin-bottom: 40px;
     }
     .place-01 {
         width: 600px;

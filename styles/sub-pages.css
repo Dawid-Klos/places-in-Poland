@@ -84,7 +84,7 @@
 /* H1 - PAGE TITLE */
 .website-title {
     margin-top: -24px;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 }
 .website-title__heading {
     font-family: 'Lobster', 'sans-serif';
@@ -129,6 +129,9 @@
 .first__content {
 
 }
+.first__references {
+    font-size: 14px;
+}
 .first__images {
     display: flex;
     justify-content: space-between;
@@ -169,7 +172,7 @@
 }
 /* Article - third */
 .third {
-    margin-bottom: 160px;
+    margin-bottom: 80px;
     text-align: justify;
 }
 .third__heading {
@@ -232,7 +235,7 @@
 .website-title {
     font-size: 52px;
     margin-top: 12px;
-    margin-bottom: 160px;
+    margin-bottom: 120px;
 }
 .main {
     width: calc(100% - 180px);

@@ -88,10 +88,10 @@ function switchSlide(currentSlide) {
             placeHeading.textContent = "Baltic Sea";
             placeContent.textContent = "The Baltic Sea is an arm of the Atlantic Ocean, enclosed by Denmark, Estonia, Finland, Latvia, Lithuania, Sweden, northeast Germany, Poland, Russia and the North and Central European Plain.";
             // slide mini-picture changing //
-            slide1.style.backgroundImage = "url('img/gallery/small/slide-01.png')";
-            slide2.style.backgroundImage = "url('img/gallery/small/slide-02.png')";
-            slide3.style.backgroundImage = "url('img/gallery/small/slide-03.png')";
-            slide4.style.backgroundImage = "url('img/gallery/small/slide-04.png')";
+            slide1.style.backgroundImage = "url('img/slides/slide-01.png')";
+            slide2.style.backgroundImage = "url('img/slides/slide-02.png')";
+            slide3.style.backgroundImage = "url('img/slides/slide-03.png')";
+            slide4.style.backgroundImage = "url('img/slides/slide-04.png')";
             // slide icon changing //
             slideIcon1.src = "img/sailing-icon.svg";
             slideIcon2.src = "img/hiking-icon.svg";
@@ -119,12 +119,12 @@ function switchSlide(currentSlide) {
             // current place descripton
             placeHeadingNumber.textContent = "02.";
             placeHeading.textContent = "Mountains";
-            placeContent.textContent = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.";
+            placeContent.textContent = "For many visitors their tourist adventure in Poland start at one of the main cities; however our mountains often comes as a second destination. There are several mountain ranges in Poland. all located in the Southern part of the country.";
             // slide mini-picture changing //
-            slide4.style.backgroundImage = "url('img/gallery/small/slide-01.png')";
-            slide1.style.backgroundImage = "url('img/gallery/small/slide-02.png')";
-            slide2.style.backgroundImage = "url('img/gallery/small/slide-03.png')";
-            slide3.style.backgroundImage = "url('img/gallery/small/slide-04.png')";
+            slide4.style.backgroundImage = "url('img/slides/slide-01.png')";
+            slide1.style.backgroundImage = "url('img/slides/slide-02.png')";
+            slide2.style.backgroundImage = "url('img/slides/slide-03.png')";
+            slide3.style.backgroundImage = "url('img/slides/slide-04.png')";
             // slide icon changing //
             slideIcon4.src = "img/sailing-icon.svg";
             slideIcon1.src = "img/hiking-icon.svg";
@@ -154,10 +154,10 @@ function switchSlide(currentSlide) {
             placeHeading.textContent = "Masuria";
             placeContent.textContent = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.";
             // slide mini-picture changing //
-            slide3.style.backgroundImage = "url('img/gallery/small/slide-01.png')";
-            slide4.style.backgroundImage = "url('img/gallery/small/slide-02.png')";
-            slide1.style.backgroundImage = "url('img/gallery/small/slide-03.png')";
-            slide2.style.backgroundImage = "url('img/gallery/small/slide-04.png')";
+            slide3.style.backgroundImage = "url('img/slides/slide-01.png')";
+            slide4.style.backgroundImage = "url('img/slides/slide-02.png')";
+            slide1.style.backgroundImage = "url('img/slides/slide-03.png')";
+            slide2.style.backgroundImage = "url('img/slides/slide-04.png')";
             // slide icon changing //
             slideIcon3.src = "img/sailing-icon.svg";
             slideIcon4.src = "img/hiking-icon.svg";
@@ -187,10 +187,10 @@ function switchSlide(currentSlide) {
             placeHeading.textContent = "Kashubia";
             placeContent.textContent = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.";
              // slide mini-picture changing //
-             slide2.style.backgroundImage = "url('img/gallery/small/slide-01.png')";
-             slide3.style.backgroundImage = "url('img/gallery/small/slide-02.png')";
-             slide4.style.backgroundImage = "url('img/gallery/small/slide-03.png')";
-             slide1.style.backgroundImage = "url('img/gallery/small/slide-04.png')";
+             slide2.style.backgroundImage = "url('img/slides/slide-01.png')";
+             slide3.style.backgroundImage = "url('img/slides/slide-02.png')";
+             slide4.style.backgroundImage = "url('img/slides/slide-03.png')";
+             slide1.style.backgroundImage = "url('img/slides/slide-04.png')";
             // slide icon changing //
             slideIcon2.src = "img/sailing-icon.svg";
             slideIcon3.src = "img/hiking-icon.svg";

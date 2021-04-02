@@ -184,7 +184,9 @@
     /* 300, 460 */
     width: 224px;
     height: 368px;
-    background-image: url("../img/gallery/small/slide-01.png");
+    background-image: url("../img/slides/slide-01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 2px solid #023E8A;
     border-radius: 8px;
     display: flex;
@@ -218,7 +220,7 @@
 .slide-02 {
     width: 224px;
     height: 304px;
-    background-image: url("../img/gallery/small/slide-02.png");
+    background-image: url("../img/slides/slide-02.png");
     border-radius: 8px;
     display: flex;
     flex-flow: column wrap;
@@ -250,7 +252,7 @@
 .slide-03 {
     width: 224px;
     height: 304px;
-    background-image: url("../img/gallery/small/slide-03.png");
+    background-image: url("../img/slides/slide-03.png");
     border-radius: 8px;
     display: flex;
     flex-flow: column wrap;
@@ -283,7 +285,7 @@
 .slide-04 {
     width: 224px;
     height: 304px;
-    background-image: url("../img/gallery/small/slide-03.png");
+    background-image: url("../img/slides/slide-04.png");
     border-radius: 8px;
     display: flex;
     flex-flow: column wrap;
@@ -484,7 +486,7 @@
     }
     .place__content {
         top: 160px;
-        font-size: 14px;
+        font-size: 16px;
     }
     .slider-box {
         grid-column-start: 3;

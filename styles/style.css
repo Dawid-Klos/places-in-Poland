@@ -195,7 +195,6 @@
 
 /* Slide-1 */
 .slide-01 {
-    /* 300, 460 */
     width: 224px;
     height: 368px;
     background-image: url("../img/slides/slide-01.png");
@@ -247,34 +246,24 @@
 }
 .slide-02__heading:before {
     width: 224px;
-    height: 380px;
+    height: 304px;
     position: absolute;
     display: block;
     content: '';
     background-color: black;
     opacity: 35%;
     z-index: -1;
-    margin-top: -200px;
+    border-radius: 8px;
+    margin-top: -162px;
 }
-/* .slide-02__heading:before {
-    width: 224px;
-    height: 60px;
-    position: absolute;
-    display: block;
-    content: '';
-    background-color: black;
-    opacity: 35%;
-    z-index: -1;
-    margin-top: -16px;
-} */
 .slide-02__heading {
     width: 100%;
     font-size: 26px;
     font-weight: bold;
     text-align: center;
     z-index: 1;
+    opacity: .5;
 }
-
 /* Slide-3 */
 .slide-03 {
     width: 224px;
@@ -292,14 +281,15 @@
 }
 .slide-03__heading:before {
     width: 224px;
-    height: 380px;
+    height: 304px;
     position: absolute;
     display: block;
     content: '';
     background-color: black;
     opacity: 35%;
     z-index: -1;
-    margin-top: -200px;
+    border-radius: 8px;
+    margin-top: -162px;
 }
 .slide-03__heading {
     width: 100%;
@@ -307,6 +297,7 @@
     font-weight: bold;
     text-align: center;
     z-index: 1;
+    opacity: .5;
 }
 
 /* Slide-4 */
@@ -324,14 +315,15 @@
 }
 .slide-04__heading:before {
     width: 224px;
-    height: 380px;
+    height: 304px;
     position: absolute;
     display: block;
     content: '';
     background-color: black;
     opacity: 35%;
     z-index: -1;
-    margin-top: -200px;
+    border-radius: 8px;
+    margin-top: -162
 }
 .slide-04__heading {
     width: 100%;
@@ -339,6 +331,7 @@
     font-weight: bold;
     text-align: center;
     z-index: 1;
+    opacity: .5;
 }   
 
 /* SLIDER-CONTROL-PANEL */
@@ -555,6 +548,11 @@
     .slide-02 {
         width: 280px;
         height: 380px;
+    }
+    .slide-02__heading:before {
+        width: 224px;
+        height: 380px;
+        margin-top: -200px;
     }
     .slide-03 {
         width: 280px;

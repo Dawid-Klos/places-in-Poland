@@ -24,6 +24,9 @@ const placeHeading = document.querySelector(".place__heading");
 const placeHeadingNumber = document.querySelector(".place__number");
 const placeContent = document.querySelector(".place__content");
 
+// Place button //
+const exploreButton = document.querySelector(".place__explore-btn");
+
 // SLIDES //
 
 // container
@@ -86,6 +89,8 @@ function switchSlide(currentSlide) {
       placeHeading.textContent = "Baltic Sea";
       placeContent.textContent =
         "The Baltic Sea is an arm of the Atlantic Ocean, enclosed by Denmark, Estonia, Finland, Latvia, Lithuania, Sweden, northeast Germany, Poland, Russia and the North and Central European Plain.";
+      // explore button //
+      exploreButton.href = "pages/baltic-sea.html";
       // slide mini-picture changing //
       slide1.style.backgroundImage = "url('img/slides/slide-01.png')";
       slide2.style.backgroundImage = "url('img/slides/slide-02.png')";
@@ -120,7 +125,9 @@ function switchSlide(currentSlide) {
       placeHeading.textContent = "Mountains";
       placeContent.textContent =
         "For many visitors their tourist adventure in Poland start at one of the main cities; however our mountains often comes as a second destination. There are several mountain ranges in Poland. all located in the Southern part of the country.";
-      // slide mini-picture changing //
+      // explore button //
+      exploreButton.href = "pages/mountains.html";
+        // slide mini-picture changing //
       slide4.style.backgroundImage = "url('img/slides/slide-01.png')";
       slide1.style.backgroundImage = "url('img/slides/slide-02.png')";
       slide2.style.backgroundImage = "url('img/slides/slide-03.png')";
@@ -154,7 +161,9 @@ function switchSlide(currentSlide) {
       placeHeading.textContent = "Masuria";
       placeContent.textContent =
         "Masuria is famous for its lakes and forests. Masurian Lake is a tourist attraction center in Poland. The great Masurian Lake district, east of Olsztyn, is a verdant land of rolling hills dotted with countless lakes, scattered tracts of forest, healthy little farms and small towns.";
-      // slide mini-picture changing //
+      // explore button //
+      exploreButton.href = "pages/masuria.html";
+        // slide mini-picture changing //
       slide3.style.backgroundImage = "url('img/slides/slide-01.png')";
       slide4.style.backgroundImage = "url('img/slides/slide-02.png')";
       slide1.style.backgroundImage = "url('img/slides/slide-03.png')";
@@ -187,6 +196,8 @@ function switchSlide(currentSlide) {
       placeHeadingNumber.textContent = "04.";
       placeHeading.textContent = "Kashubia";
       placeContent.textContent = "If there's a more beautiful region in Poland, we are yet to lose to that argument! Described as Poland's little Switzerland by a number of writers, Kashubia (PL: Kaszuby / KS: Kaszëbë) is the picturesque rural area spanning a 100km west of the Tri-city.";
+      // explore button //
+      exploreButton.href = "pages/kashubia.html";
       // slide mini-picture changing //
       slide2.style.backgroundImage = "url('img/slides/slide-01.png')";
       slide3.style.backgroundImage = "url('img/slides/slide-02.png')";
